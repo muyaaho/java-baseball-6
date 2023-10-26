@@ -17,7 +17,7 @@ import java.util.List;
 public class Application {
     public static void main(String[] args) {
         final Referee referee = new Referee();
-        final String result = referee.compare(Arrays.asList(3,1,2), Arrays.asList(1,2,3));
+        final String result = referee.compare(Arrays.asList(7,8,9), Arrays.asList(1,2,3));
         System.out.println(result);
     }
 }
