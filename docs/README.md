@@ -54,13 +54,14 @@
     - 명시적으로 기능을 어디까지 열어둘지 지정해줌(파이썬은 무조건 public)
 - 클래스 import
     - `import 패키지.클래스이름`
-
+- 자동 정렬 `ctrl`+`alt`+`l` (클래스만)
+- 패키지 자체를 자동정렬 하고 싶으면 패키지를 마우스로 선택하고 ctrl alt l
 
 
 
 ---
 ## 기능 목록
-- [ ] 1부터 9까지의 서로 다른 임의의 수 3개를 생성한다. - NumberGenerator#createRandomNumbers()
+- [x] 1부터 9까지의 서로 다른 임의의 수 3개를 생성한다. - NumberGenerator#createRandomNumbers()
 - [ ] 컴퓨터의 수(3자리)와 플레이어의 수(3자리)를 비교할 수 있다. - Referee#compare()
     - [ ] 몇 개의 숫자가 같은지를 알 수 있다. - Judgment#correctCount()
     - [ ] 특정 자리에 특정 숫자가 있는지 알 수 있다. - Judgment#hasPlace()
