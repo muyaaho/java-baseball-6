@@ -22,8 +22,13 @@ public class Application {
         Judgment judgment = new Judgment();
         // 리스트 두 개가 같은지 확인
         //
-        final int count = judgment.correctCount(Arrays.asList(7, 8, 9), Arrays.asList(1, 2, 3));
-        System.out.println(count);
+//        final int count = judgment.correctCount(Arrays.asList(7, 8, 9), Arrays.asList(1, 2, 3));
+//        System.out.println(count);
+
+        /*hasPlace
+        * placeIndex가 number와 같냐(우리가 Judgment에서 만든 것임)*/
+        final boolean place = judgment.hasPlace(Arrays.asList(7,8,9), 0, 7);
+        System.out.println(place);
 
 
     }
