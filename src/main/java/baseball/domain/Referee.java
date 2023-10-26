@@ -3,6 +3,7 @@ package baseball.domain;
 import java.util.List;
 
 public class Referee {
+
     public String compare(List<Integer> computer, List<Integer> player) {
         // 몇 개의 숫자가 같은지 알아낸 뒤
         // 스트라이크의 개수를 구해 뺀다.
