@@ -28,9 +28,9 @@ main() 메소드 앞에도 static이 붙어 있다. 자바 가상 기계가 객�
 - 정적 메소드에서 인스턴스 메소드를 호출하면 역시 오류가 된다. 인스턴스 메소드도 객체가 생성되어야만 사용할 수 있기 때문이다.
     
     
-    ![Untitled](static%2010fc84ee5255404da3752dfbb91a107c/Untitled.png)
+![Untitled](image/Untitled_1.png)
     
-    ![Untitled](static%2010fc84ee5255404da3752dfbb91a107c/Untitled%201.png)
+![Untitled](image/Untitled_2.png)
     
 - 정적 메소드에서 정적 메소드를 호출하는 것은 가능하다. 정적 메소드는 this 키워드를 사용할 수 없다. 왜냐하면 this가 참조할 인스턴스가 없기 때문이다.
 
